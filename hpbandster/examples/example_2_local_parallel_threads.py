@@ -26,7 +26,7 @@ parser = argparse.ArgumentParser(description='Example 1 - sequential and local e
 parser.add_argument('--min_budget',   type=float, help='Minimum budget used during the optimization.',    default=9)
 parser.add_argument('--max_budget',   type=float, help='Maximum budget used during the optimization.',    default=243)
 parser.add_argument('--n_iterations', type=int,   help='Number of iterations performed by the optimizer', default=4)
-parser.add_argument('--n_workers', type=int,   help='Number of workers to run in parallel.', default=2)
+parser.add_argument('--n_workers', type=int,   help='Number of workers to run in parallel.', default=4)
 
 args=parser.parse_args()
 
